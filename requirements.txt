@@ -1,0 +1,9 @@
+google-play-scraper
+pandas
+numpy
+nltk
+textblob
+oracledb
+matplotlib
+seaborn
+re
