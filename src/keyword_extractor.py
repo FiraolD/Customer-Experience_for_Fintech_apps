@@ -13,9 +13,17 @@ df['keywords'] = df['content'].apply(lambda x: [word for word in x.split() if wo
 
 # Group keywords into themes (manual mapping)
 themes = {
-    "account_access": ["login", "password", "access"],
-    "transaction_performance": ["transfer", "slow", "fast"],
-    "user_experience": ["ui", "design", "slow", "interface", "easy", "difficult", "crash", "accesbility", "complex", "fast", "convenient", "speed", "seamless", "reliable", "busy"]
+    "account_access": ["login", "password", "access", "authentication", "sign-in", "sign-out",
+        "biometric", "fingerprint", "face-id", "pin", "otp", "two-factor", "lockout",
+        "user login", "password reset", "login error", "biometric login", "OTP delay"],
+    "transaction_performance": ["transfer", "payment", "transaction", "slow", "fast", "quick", "delay",
+        "reliable", "error", "failure", "processing", "pending", "network", "busy",
+        "money transfer", "slow transaction", "fast payment", "transaction error",
+        "network issue", "pending payment"],
+    "user_experience": ["ui", "interface", "design", "navigation", "slow", "fast", "crash", "accessibility",
+        "complex", "simple", "intuitive", "convenient", "seamless", "reliable", "lag",
+        "user interface", "app design", "intuitive navigation", "slow performance",
+        "crash", "user-friendly app", "modern UI", "performance lag" ]
 }
 
 df['theme'] = df['keywords'].apply(
