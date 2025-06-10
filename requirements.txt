@@ -6,4 +6,6 @@ textblob
 oracledb
 matplotlib
 seaborn
-re
+WordCloud
+collections
+ast
