@@ -5,9 +5,8 @@ import os
 app_ids = {
     "CBE": "com.combanketh.mobilebanking",  # App-Id for CBE
     "BOA": "com.boa.boaMobileBanking",      # App-Id for BOA
-    "Dashen": "com.dashen.dashensuperapp",  # App-Id for Dashen bank
-    "Awash": "com.awashbank.mobile",        #App-Id for Awash bank
-    "COOP": "com.cbo.mobilebanking"         #App-Id for COOP
+    "Dashen": "com.dashen.dashensuperapp"  # App-Id for Dashen bank
+    
 }
 
 # Function to scrape reviews
