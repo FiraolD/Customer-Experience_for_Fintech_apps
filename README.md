@@ -1,10 +1,8 @@
 ﻿# Customer-Experience_for_Fintech_apps
-Below is a well-structured `README.md` file for the   web scraping and preprocessing   part of your project. This README provides clear instructions, explanations, and guidance for collaborators or anyone reviewing your code.
-
 
 #   Web Scraping and Preprocessing  
 
-This repository contains scripts and documentation for   scraping reviews   from the Google Play Store and performing   data preprocessing   to prepare the data for downstream analysis. The goal is to collect user reviews for three Ethiopian banks—  Commercial Bank of Ethiopia (CBE)  ,   Bank of Abyssinia (BOA)  , and   Dashen Bank  —and clean the data for sentiment and thematic analysis.
+This repository contains scripts and documentation for   scraping reviews   from the Google Play Store and performing   data preprocessing   to prepare the data for downstream analysis. The goal is to collect user reviews for three Ethiopian banks—  Commercial Bank of Ethiopia (CBE)  ,   Bank of Abyssinia (BOA)  , and   Dashen Bank  —and clean the data for sentiment and thematic analysis and finally Delivere actionable insights to improve user experience..
 
 
 ##   Overview  
